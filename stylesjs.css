@@ -45,11 +45,17 @@ label{
 
  }
 bottom{
-  background:#8a51fc;
-  width:95%;
-  height:50px;
-  margin:50px 0;
-
+    padding-top:10px;
+    font-weight:700;
+    display:block;
+    background:#8a51fc;
+    border-radius:5px;
+    width:95%;
+    border:none;
+    height:50px;
+    margin: 15px auto;
+    color:#FFFF;
+    
 }
 
  section{
