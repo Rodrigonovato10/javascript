@@ -1,10 +1,4 @@
 
-const input = document.querySelector("#main-input") 
-const select = document.querySelector("select")
-const button = document.querySelector(".main-button")
-   
+const covertButton = document.querySelector(".bottom");
 
-function troqueiValor(){
-console.log(troqueiValor)
-}
-button .addEventListener("click", troqueiValor)
+console.log("convertButton");
