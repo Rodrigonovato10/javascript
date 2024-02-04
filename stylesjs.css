@@ -42,7 +42,7 @@ label{
      height: 50px;
      border: 1px solid #BBBBBB;
     background: #FFFFFF;
-
+    cursor: pointer;
  }
 .bottom{
     padding-top:10px;
@@ -55,7 +55,7 @@ label{
     height:50px;
     margin: 15px auto;
     color:#FFFF;
-    
+    cursor: pointer;
 }
 
  section{
@@ -63,6 +63,7 @@ label{
     font-weight: 700;
     font-size: 20px;
     color: #777777;
+    cursor: pointer;
 }
  p{
     font-weight: 700;
