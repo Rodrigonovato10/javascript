@@ -2,13 +2,24 @@ const convertbutton = document.querySelector(".bottom")
 
 function convertValues(){
 
-    const inputMoeda = document.querySelector(".input-coin").value
+    const inputCurrency = document.querySelector(".input-coin").value  // valor digitado 
+    const currencyToValueConvert = document.querySelector(".currency-to-Convert") // valor para converter
+    const currencyValuecorvetd = document.querySelector(".currency-Convertd") //valor convertido
 
     const dolarToday =4.97
 
-    const meResult = inputMoeda / dolarToday 
+    const meResult = inputCurrency / dolarToday 
 
-console.log(meResult)
+    currencyToValueConvert.innerHTML = new Intl.NumberFormat("pr-BR",{
+        style: "currency",
+        currency: "BRL",
+    }).format(inputCurrency)
+
+    currencyValuecorvetd.innerHTML = new Intl.NumberFormat("en-US",{
+        style: "currency",
+        currency: "USD",
+    }).format(meResult)
+
 
 }
 
